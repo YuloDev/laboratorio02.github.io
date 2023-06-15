@@ -1,0 +1,284 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* * {
+  border: 1px solid #ff0000;
+} */
+@font-face {
+  font-family: Inter-Regular;
+  src: url(fuentes/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(fuentes/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(fuentes/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: Romanesco-Regular;
+  src: url(fuentes/Romanesco-Regular.ttf);
+}
+header {
+  background-color: #a3a656;
+  height: 70px;
+}
+nav {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.lista-sin-punto {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+#lis-header {
+  margin-left: 67.5px;
+}
+#lis-header li {
+  margin: 0px 5px;
+}
+nav ul li:hover {
+  color: #ffff00;
+}
+#login {
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+#login > span {
+  margin: 0px 15px;
+  display: flex;
+  align-items: center;
+}
+.cuenta > span {
+  margin: 0 5px;
+}
+
+#main {
+  height: 554px;
+  background: url(../images/main.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: bottom-left;
+}
+#texto-main {
+  width: 550px;
+  position: relative;
+  left: 200px;
+  top: 120px;
+}
+#texto-main p {
+  margin-bottom: 40px;
+}
+/* Reservacion */
+#reservacion {
+  height: 100px;
+  background-color: #f2f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reservacion .formulario {
+  margin: 0 5px;
+}
+#reservacion input {
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+}
+#reserva {
+  width: 240px;
+}
+#codigo {
+  width: 150px;
+}
+/* Servicios */
+#servicios {
+  text-align: center;
+}
+#servicios > span:nth-child(n + 2) {
+  margin-left: 134px;
+}
+.carta-servicio {
+  width: 300px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  box-sizing: border-box;
+}
+.carta-servicio p {
+  width: 300px;
+  text-align: left;
+}
+.imagen-servicio {
+  width: 300px;
+  height: 225px;
+}
+.imagen-servicio img {
+  width: auto;
+  height: 100%;
+}
+.cabecera {
+  width: 300px;
+  height: 60px;
+  background-color: #a3a656;
+  border-radius: 15px 15px 0px 0px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.compra {
+  display: flex;
+  align-items: center;
+}
+.btn-reserva {
+  background-color: #a3a656;
+  color: #ffffff;
+  border-radius: 35px;
+  height: 30px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.precio {
+  float: left;
+  margin-left: 10px;
+}
+
+/* Membresia */
+#membresias {
+  height: 700px;
+  background-color: #f2f6f6;
+}
+h2 {
+  width: fit-content;
+  margin: 0px auto;
+  padding-top: 30px;
+}
+#tarjetas-membresia {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 90px;
+}
+.carta-membresia {
+  width: 300px;
+  height: 100%;
+  display: inline-block;
+}
+.plan-membresia {
+  margin: 5px 0px;
+}
+.carta-membresia div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-membresia {
+  width: 100%;
+  height: 255px;
+}
+.imagen-membresia {
+  width: 233px;
+  height: 233px;
+  border-radius: 50%;
+  border: 10px solid #384001;
+}
+.beneficios-membresia {
+  margin-left: 80px;
+}
+.boton-condiciones {
+  margin: 15px 0px;
+  padding: 15px 30px;
+  text-align: center;
+  background: #a3a656;
+  border-radius: 35px;
+  color: #ffffff;
+  font-size: Inter;
+}
+.boton:hover {
+  color: #384001;
+}
+/* Footer */
+footer {
+  height: 97px;
+  background-color: #384001;
+}
+#lis-footer {
+  margin-left: 60px;
+}
+#lis-footer li {
+  margin: 0px 20px;
+}
+#social-media {
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+#social-media span {
+  margin-right: 15px;
+}
+#redes {
+  display: flex;
+  align-items: center;
+}
+#redes li {
+  margin: 0px 15px;
+}
+
+/*Fuentes*/
+.fuente-menu {
+  font-family: Inter-Regular;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.fuente-normal {
+  font-family: Inter-Regular;
+  font-size: 16px;
+}
+.fuente-placeholder {
+  font-family: Inter-Regular;
+  font-size: 16px;
+  color: #9e9a9a;
+}
+.fuente-titulo1 {
+  font-family: Inter-Bold;
+  font-size: 48px;
+}
+.fuente-titulo2 {
+  font-family: Inter-SemiBold;
+  font-size: 32px;
+}
+.fuente-miniatura {
+  font-family: Inter-Regular;
+  font-size: 14px;
+}
+.fuente-romanesco {
+  font-family: Romanesco-Regular;
+  font-size: 96px;
+}
+.fuente-boton {
+  font-family: Inter-Bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#fuente-footer {
+  color: #a3a656;
+}
